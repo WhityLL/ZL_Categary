@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZL_Categary"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "常用的分类"
   s.description  = <<-DESC
                     Objc 常用分类整理整理.
@@ -92,10 +92,10 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # 设置支持的架构不支持i386架构 和x86_64架构
-  valid_archs = ['arm64','arm64e','armv7','armv7s']
-  s.xcconfig = {
-        'VALID_ARCHS' => valid_archs.join(' '),
-  }
+  # valid_archs = ['arm64','arm64e','armv7','armv7s']
+  # s.xcconfig = {
+  #       'VALID_ARCHS' => valid_archs.join(' '),
+  # }
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
 end
