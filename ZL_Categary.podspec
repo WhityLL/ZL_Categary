@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZL_Categary"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "常用的分类"
   s.description  = <<-DESC
                     Objc 常用分类整理整理.
