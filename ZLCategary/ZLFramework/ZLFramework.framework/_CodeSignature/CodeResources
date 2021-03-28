@@ -8,13 +8,17 @@
 		<data>
 		aunQ46XUiy750GADEpn9RMkir4Q=
 		</data>
-		<key>Headers/ZLClassB.h</key>
+		<key>Headers/ZLFramework.h</key>
 		<data>
-		au38AdcVUhbnthGBMbusF+E8IUU=
+		2Z5IUCk0ZyrSwPCYE69HWCaCHm4=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		Eq5kgKBt8DDHy1xbzY/E7GDFm9A=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		//oPHXWS1lRTbbRr0rUR3d93Oks=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -30,15 +34,26 @@
 			hXxQVlyAWOW2/fUbg0AU/iIK4f7awz79S7ozWl9EgAQ=
 			</data>
 		</dict>
-		<key>Headers/ZLClassB.h</key>
+		<key>Headers/ZLFramework.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			au38AdcVUhbnthGBMbusF+E8IUU=
+			2Z5IUCk0ZyrSwPCYE69HWCaCHm4=
 			</data>
 			<key>hash2</key>
 			<data>
-			fd8JbqjzCleDQmKAABrNPgJQvU2BdcprDNoU5OcXtV8=
+			yL4Vd7BXd2PfVT7tw6iYW4liu6sMweZ0IAtXYzvN3OM=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			//oPHXWS1lRTbbRr0rUR3d93Oks=
+			</data>
+			<key>hash2</key>
+			<data>
+			hbbs6fHKeP7JVUvA7YMANy9d4BFDi6uy2rqyE7zy8CE=
 			</data>
 		</dict>
 	</dict>

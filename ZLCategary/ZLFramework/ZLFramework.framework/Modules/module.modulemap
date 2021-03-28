@@ -1,0 +1,6 @@
+framework module ZLFramework {
+  umbrella header "ZLFramework.h"
+
+  export *
+  module * { export * }
+}
