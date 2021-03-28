@@ -1,0 +1,6 @@
+framework module LiSheSDK {
+  umbrella header "LiSheSDK.h"
+
+  export *
+  module * { export * }
+}
