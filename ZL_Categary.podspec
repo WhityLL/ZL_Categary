@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZL_Categary"
-  s.version      = "0.0.9"
+  s.version      = "0.0.10"
   s.summary      = "常用的分类"
   s.description  = <<-DESC
-                    Objc 常用分类整理整理.
+                    Objc常用分类整理整理.
                    DESC
 
   s.homepage     = "https://github.com/WhityLL/ZL_Categary"
