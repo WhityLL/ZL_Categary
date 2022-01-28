@@ -14,12 +14,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qC3wVtVU8ChhiZ7n+ClTj8xbWJ8=
+		x/3OjJ5RMLnGpS2MRqHEAXexU5M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		f69LLmm96bOhltriaH6dqXwg5EM=
 		</data>
+		<key>ULFramework.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NgQmhPEVVSSvynYcztqnz/5xDcE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ULFramework.bundle/ja.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/IGxd0z8iYCelh03BL+uy5aa58s=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ULFramework.bundle/zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KtpV0vFrddMLG3y+TNr8VwdGcAE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -55,6 +82,45 @@
 			<data>
 			j1zTKWSy6SmJXR0Mls4r5vMJQcfxfSTp49Wjko0Ptqw=
 			</data>
+		</dict>
+		<key>ULFramework.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NgQmhPEVVSSvynYcztqnz/5xDcE=
+			</data>
+			<key>hash2</key>
+			<data>
+			ctOAPyx0VmP3AmpY4Tuv9kdR+AV2U+wnEfpIAFDsxNI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ULFramework.bundle/ja.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/IGxd0z8iYCelh03BL+uy5aa58s=
+			</data>
+			<key>hash2</key>
+			<data>
+			/XIZibZKD/vK6vTi9WjEsZpBpANa552PFL9GaavTaJg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ULFramework.bundle/zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KtpV0vFrddMLG3y+TNr8VwdGcAE=
+			</data>
+			<key>hash2</key>
+			<data>
+			RX3LSsfhLJ/nF/sKkQ0EE6fI7Un1Cwc7uPxUMlqkwgU=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
