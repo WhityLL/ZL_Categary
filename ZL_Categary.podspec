@@ -50,7 +50,7 @@ Pod::Spec.new do |s|
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
-s.source_files = 'ZLCategary/Classes/*.{h,m}'
+s.source_files = 'ZLCategary/*.{h,m}'
 
 # *********** 文件结构开始 2 *********** #
   s.subspec 'Foundation' do |foundation|
