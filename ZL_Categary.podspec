@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
 # # *********** 文件结构结束 *********** #
 
   # 库的资源文件路径
-  s.resource  = 'ZLCategary/*.bundle'
+  s.resource  = 'ZLCategary/ZLCategary.bundle'
   # spec.resources = "Resources/*.png"
   
   # s.resource_bundles = {
