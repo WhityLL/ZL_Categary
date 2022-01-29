@@ -43,17 +43,16 @@ Pod::Spec.new do |s|
 #   s.dependency "MJExtension", "~> 3.1.0"
 # # *********** 文件结构结束 *********** #
 
-  # 库的资源文件路径
-  s.resource  = 'ZLCategary/ZLCategary.bundle'
-  # spec.resources = "Resources/*.png"
-  
-  # s.resource_bundles = {
-  #   'Resources' => 'ZLCategary/*.bundle'
-  # }
+# 库的资源文件路径
+# spec.resource  = "icon.png"
+# spec.resources = "Resources/*.png"
 
-  # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
+# 主podspec的文件
 s.source_files = 'ZLCategary/*.{h,m}'
+# 主podspec的资源
+s.resource_bundles = {
+  'Resources' => ['ZLCategary/*.bundle']
+}
 
 # *********** 文件结构开始 2 *********** #
   s.subspec 'Foundation' do |foundation|
