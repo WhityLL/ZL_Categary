@@ -52,7 +52,7 @@ s.source_files = 'ZLCategary/*.{h,m}'
 # 主podspec的资源
 s.resource_bundles = {
   # 'ZLCategory' 为打包后的包名
-  'ZLCategory' => ['ZLCategary/*.bundle']
+  'ZLCategory' => ['ZLCategary/Resources/*.bundle']
 }
 
 # *********** 文件结构开始 2 *********** #
