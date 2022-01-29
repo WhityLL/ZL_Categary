@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZL_Categary"
-  s.version      = "0.0.12"
+  s.version      = "0.0.13"
   s.summary      = "常用的分类"
   s.description  = <<-DESC
                     Objc常用分类整理整理.
@@ -52,16 +52,16 @@ Pod::Spec.new do |s|
 
 # *********** 文件结构开始 2 *********** #
   s.subspec 'Foundation' do |foundation|
-    foundation.source_files = 'ZLCategary/Foundation/**/*'
+    foundation.source_files = 'ZLCategary/Classes/Foundation/**/*'
     foundation.dependency "MJExtension", "~> 3.1.0"
   end
 
   s.subspec 'MapKit' do |mapkit|
-    mapkit.source_files = 'ZLCategary/MapKit/**/*'
+    mapkit.source_files = 'ZLCategary/Classes/MapKit/**/*'
   end
 
   s.subspec 'UIKit' do |uikit|
-    uikit.source_files = 'ZLCategary/UIKit/**/*'
+    uikit.source_files = 'ZLCategary/Classes/UIKit/**/*'
   end
 # *********** 文件结构结束 *********** #
 
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
 
   # 加入的文件有framework文件，需要设置引入的framework目录
   # 注意支持的架构有armv7 arm64 如果支持i386 x86_64则需要去掉，因为会导致应用提交到苹果审核被拒。 查看方法【lipo -info】 去掉方法见博客
-  s.vendored_frameworks = 'ZLCategary/ZLFramework/*.framework'
+  s.vendored_frameworks = 'ZLCategary/Frameworks/*.framework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

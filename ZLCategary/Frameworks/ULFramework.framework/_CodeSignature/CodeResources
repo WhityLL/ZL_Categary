@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/ULClassA.h</key>
 		<data>
-		0IXOKTHcWzP5e3KOBO8PYp5j+5c=
+		0csZzJvTAyWMLBTX6XaJ3kgw0tY=
 		</data>
 		<key>Headers/ULFramework.h</key>
 		<data>
-		lCEYP1mN6gYsPNW47DhKx8RsfYM=
+		zoZUSkciHdTsFG4tzv/FxLMvVwY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -29,6 +29,14 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>ULFramework.bundle/icon_details_praise_tint_small_p@2x.png</key>
+		<data>
+		DqDCZ9C7Ld54HQeUNaB2BKCp6XA=
+		</data>
+		<key>ULFramework.bundle/icon_details_praise_tint_small_p@3x.png</key>
+		<data>
+		wu2XNme6xrm98jLan8IrK52/fkA=
+		</data>
 		<key>ULFramework.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -54,22 +62,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0IXOKTHcWzP5e3KOBO8PYp5j+5c=
+			0csZzJvTAyWMLBTX6XaJ3kgw0tY=
 			</data>
 			<key>hash2</key>
 			<data>
-			melVt4tfljTJmi71Fr2XDiJee5SRel5GaVTtoyX8WQk=
+			JMppHc2cdQcRsc1GMTcEpqELhXtmIOMg3YI0YYbZ6H0=
 			</data>
 		</dict>
 		<key>Headers/ULFramework.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lCEYP1mN6gYsPNW47DhKx8RsfYM=
+			zoZUSkciHdTsFG4tzv/FxLMvVwY=
 			</data>
 			<key>hash2</key>
 			<data>
-			rKdptYjhe62i+XxUjVUGd7Ao9K7aIj83Jn+hHJG2qKs=
+			ESmNpSKo2odgE9/xOxqZDPChnUlh0a7658KEilMvuMA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -95,6 +103,28 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>ULFramework.bundle/icon_details_praise_tint_small_p@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DqDCZ9C7Ld54HQeUNaB2BKCp6XA=
+			</data>
+			<key>hash2</key>
+			<data>
+			d0cGYjJ4cJEDq/6ZxV/FuraaxVaxGX/neA0n3LZh8Mo=
+			</data>
+		</dict>
+		<key>ULFramework.bundle/icon_details_praise_tint_small_p@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wu2XNme6xrm98jLan8IrK52/fkA=
+			</data>
+			<key>hash2</key>
+			<data>
+			iLz3ZgBVq/u7ETMdJcNcjqq4T1Xc1Tt2Lze8Qnm5Zac=
+			</data>
 		</dict>
 		<key>ULFramework.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
