@@ -6,7 +6,13 @@
 //
 
 #import "Foo.h"
+#import "NSBundle+ZLCategary.h"
 
 @implementation Foo
+
+- (void)sayHello {
+    NSString *str = [NSBundle zlCategory_localizedStringForKey:@"ULCommonStringfufei"];
+    NSLog(@"ZLCategary Bundle 国际化 = %@", str);
+}
 
 @end

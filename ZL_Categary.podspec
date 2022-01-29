@@ -51,7 +51,8 @@ Pod::Spec.new do |s|
 s.source_files = 'ZLCategary/*.{h,m}'
 # 主podspec的资源
 s.resource_bundles = {
-  'Resources' => ['ZLCategary/*.bundle']
+  # 'ZLCategory' 为打包后的包名
+  'ZLCategory' => ['ZLCategary/*.bundle']
 }
 
 # *********** 文件结构开始 2 *********** #
