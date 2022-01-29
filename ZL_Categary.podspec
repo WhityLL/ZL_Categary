@@ -45,8 +45,12 @@ Pod::Spec.new do |s|
 
   # 库的资源文件路径
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
-  s.resource_bundles = {'Resources' => 'ZLCategary/*.bundle'}
+  spec.resources = "ZLCategary/*.bundle"
+
+
+  # s.resource_bundles = {
+  #   'Resources' => 'ZLCategary/*.bundle'
+  # }
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

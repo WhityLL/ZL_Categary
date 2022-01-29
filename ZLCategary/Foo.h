@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Foo : NSObject
 
+- (void)sayHelloWorld;
+
 @end
 
 NS_ASSUME_NONNULL_END
