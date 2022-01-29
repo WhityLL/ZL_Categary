@@ -46,12 +46,11 @@ Pod::Spec.new do |s|
   # 库的资源文件路径
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
-  s.resource_bundles = {'Resources' => 'ZLCategary/Resources/*.bundle'}
+  s.resource_bundles = {'Resources' => 'ZLCategary/*.bundle'}
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
-s.source_files = 'ZLCategary/*.{h,m}'
-s.public_header_files = 'ZLCategary/ZLCategary.h'
+s.source_files = 'ZLCategary/Classes/*.{h,m}'
 
 # *********** 文件结构开始 2 *********** #
   s.subspec 'Foundation' do |foundation|
