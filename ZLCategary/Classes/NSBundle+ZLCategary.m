@@ -49,10 +49,10 @@
             language = @"en";
         }
 
-        NSBundle *b = [NSBundle zlCategoryBundle];
+        NSBundle *b = [NSBundle zlCategory_Bundle];
 
         // 从zlRefresh.bundle中查找资源
-        bundle = [NSBundle bundleWithPath:[[NSBundle zl_frameworkBundle] pathForResource:language ofType:@"lproj"]];
+        bundle = [NSBundle bundleWithPath:[[NSBundle zlCategory_Bundle] pathForResource:language ofType:@"lproj"]];
     }
     value = [bundle localizedStringForKey:key value:value table:nil];
     return [[NSBundle mainBundle] localizedStringForKey:key value:value table:nil];
