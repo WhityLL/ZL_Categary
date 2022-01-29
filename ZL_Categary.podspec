@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZL_Categary"
-  s.version      = "0.0.13"
+  s.version      = "0.0.14"
   s.summary      = "常用的分类"
   s.description  = <<-DESC
                     Objc常用分类整理整理.
@@ -49,6 +49,9 @@ Pod::Spec.new do |s|
   s.resource_bundles = {'Resources' => 'ZLCategary/Resources/*.bundle'}
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
+
+s.source_files = 'ZLCategary/Classes/*.{h,m}'
+s.public_header_files = 'ZLCategary/ZLCategary.h'
 
 # *********** 文件结构开始 2 *********** #
   s.subspec 'Foundation' do |foundation|
