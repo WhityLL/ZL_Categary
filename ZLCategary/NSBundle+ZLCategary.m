@@ -10,7 +10,7 @@
 
 @implementation NSBundle (ZLCategary)
 + (NSBundle *)zlCategory_Bundle {
-    NSString *bundlePath = [[NSBundle bundleForClass:[Foo class]] pathForResource:@"ZLCategory" ofType:@"bundle"];
+    NSString *bundlePath = [[NSBundle bundleForClass:[Foo class]] pathForResource:@"ZLCategoryResource" ofType:@"bundle"];
     NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
     return bundle;
 }
