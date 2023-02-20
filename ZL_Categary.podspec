@@ -97,6 +97,9 @@ s.resource_bundles = {
 
   s.requires_arc = true
 
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
   # 设置支持的架构不支持i386架构 和x86_64架构
   # valid_archs = ['arm64','arm64e','armv7','armv7s']
   # s.xcconfig = {
