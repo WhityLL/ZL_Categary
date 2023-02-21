@@ -1,0 +1,6 @@
+framework module ZL_Categary {
+  umbrella header "ZL_Categary-umbrella.h"
+
+  export *
+  module * { export * }
+}

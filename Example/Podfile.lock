@@ -1,0 +1,29 @@
+PODS:
+  - MJExtension (3.1.2)
+  - ZL_Categary (0.0.14):
+    - ZL_Categary/Foundation (= 0.0.14)
+    - ZL_Categary/MapKit (= 0.0.14)
+    - ZL_Categary/UIKit (= 0.0.14)
+  - ZL_Categary/Foundation (0.0.14):
+    - MJExtension (~> 3.1.0)
+  - ZL_Categary/MapKit (0.0.14)
+  - ZL_Categary/UIKit (0.0.14)
+
+DEPENDENCIES:
+  - ZL_Categary (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MJExtension
+
+EXTERNAL SOURCES:
+  ZL_Categary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MJExtension: 81e8e411ced318561dd09334b0c83d8227cef79c
+  ZL_Categary: 01706c4ce27973338f68aa1b8302e44288f3c45d
+
+PODFILE CHECKSUM: fa17977d00dbe6b5b318742d188d69ccab273a5e
+
+COCOAPODS: 1.11.3

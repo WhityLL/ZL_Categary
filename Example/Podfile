@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZL_Categary_Example' do
+  pod 'ZL_Categary', :path => '../'
+
+  target 'ZL_Categary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

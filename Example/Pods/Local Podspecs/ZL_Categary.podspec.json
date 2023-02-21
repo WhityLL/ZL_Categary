@@ -1,0 +1,55 @@
+{
+  "name": "ZL_Categary",
+  "version": "0.0.14",
+  "summary": "常用的分类",
+  "description": "Objc常用分类整理整理.",
+  "homepage": "https://github.com/WhityLL/ZL_Categary",
+  "license": "MIT",
+  "authors": {
+    "刘磊": "liulei10luojia@163.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/WhityLL/ZL_Categary.git",
+    "tag": "0.0.14"
+  },
+  "source_files": "ZLCategary/*.{h,m}",
+  "resource_bundles": {
+    "ZLCategoryResource": [
+      "ZLCategary/Resources/*.bundle"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "vendored_frameworks": "ZLCategary/Frameworks/*.framework",
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "subspecs": [
+    {
+      "name": "Foundation",
+      "source_files": "ZLCategary/Classes/Foundation/**/*",
+      "dependencies": {
+        "MJExtension": [
+          "~> 3.1.0"
+        ]
+      }
+    },
+    {
+      "name": "MapKit",
+      "source_files": "ZLCategary/Classes/MapKit/**/*"
+    },
+    {
+      "name": "UIKit",
+      "source_files": "ZLCategary/Classes/UIKit/**/*"
+    }
+  ]
+}
